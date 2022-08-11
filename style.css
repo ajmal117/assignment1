@@ -1,0 +1,262 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.mainContainer {
+  box-shadow: 0px 3px 6px #00000029;
+  position: absolute;
+  height: 94%;
+  width: 84%;
+}
+.navbarHead {
+  position: absolute;
+  /* margin: 0px; */
+  height: 77px;
+  width: 100%;
+  background-color: red;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 97px;
+  margin-top: 13px;
+  height: 48px;
+  width: 48px;
+  color: red;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: serif;
+  font-size: 45px;
+  border-radius: 50%;
+}
+
+.login-page {
+  height: 60px;
+  /* width: 490px; */
+  /* display: inline-block; */
+  text-align: center;
+  position: absolute;
+  left: 75%;
+  background-color: red;
+  font-size: 25px;
+}
+.login-btn {
+  margin-left: 120px;
+  margin-right: 14px;
+  font-size: 19px;
+  font-family: serif;
+  color: rgb(250, 255, 254);
+  background-color: rgb(247, 15, 15);
+  border: red;
+  cursor: pointer;
+}
+.account-btn {
+  padding: 6px;
+  font-size: 19px;
+  font-family: serif;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 17px;
+  color: rgb(250, 255, 254);
+  background-color: rgb(247, 15, 15);
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  font-weight: bold;
+  color: white;
+}
+.account-btn:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.heading {
+  display: inline-block;
+  color: #192f60;
+  position: absolute;
+  margin-top: 116px;
+  margin-left: 100px;
+  font-size: 60px;
+}
+.filter {
+  position: absolute;
+  margin-top: 198px;
+  margin-left: 103px;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 280px;
+  height: 70%;
+}
+
+.cuisin1 {
+  position: absolute;
+  color: #192f60;
+  margin-top: 198px;
+  margin-left: 455px;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 55%;
+  height: 30%;
+}
+
+.cuisin2 {
+  position: absolute;
+  color: #192f60;
+  margin-top: 526px;
+  margin-left: 455px;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 55%;
+  height: 28%;
+}
+
+.filt-1 {
+  position: relative;
+  color: #192f60;
+  left: 20px;
+  top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.labelSelect {
+  position: relative;
+  color: #192f60;
+  left: 18px;
+  top: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#select {
+  position: relative;
+  color: #8c96ab;
+  left: 20px;
+  top: 23px;
+  font-size: 15px;
+  height: 30px;
+  width: 208px;
+  padding: 2px;
+}
+
+.cuisin-filter1 {
+  position: relative;
+  color: #192f60;
+  left: 20px;
+  top: 36px;
+  font-size: 15px;
+}
+
+.cuisinLabel {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.regionalFood-btn {
+  accent-color: red;
+  width: 18px;
+  height: 18px;
+}
+.btn-checkbox {
+  margin-top: 5px;
+}
+.regionalFood-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #8c96ab;
+  margin-left: 8px;
+}
+
+.cuisin-filter2 {
+  position: relative;
+  color: #2d4b8b;
+  left: 20px;
+  top: 48px;
+  font-size: 15px;
+}
+
+.nextPage {
+  position: absolute;
+  top: 818px;
+  left: 785px;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageDiv {
+  display: inline-block;
+}
+
+.image1 {
+  position: relative;
+  width: 122px;
+  height: 122px;
+  margin-top: 28px;
+  margin-left: 40px;
+  border-radius: 15%;
+}
+.heading2 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: -115px;
+  left: 194px;
+}
+.subHeading1 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: -106px;
+  left: 198px;
+}
+.subHeading2 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: -95px;
+  left: 198px;
+  color: #8c96ab;
+}
+
+.line1 {
+  position: relative;
+  text-align: center;
+  left: 38px;
+  width: 920px;
+  height: 29px;
+  top: -60px;
+}
+
+.bakeryLabel {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  position: relative;
+  color: #8c96ab;
+  height: 118px;
+  width: 140px;
+  left: 38px;
+  top: -68px;
+}
+.bakeryPrice {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  color: #192f60;
+  height: 118px;
+  width: 140px;
+  left: 55px;
+  top: -68px;
+}
+
+.btn-next-pre {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  color: #8c96ab;
+  font-size: 22px;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.btn-next-pre:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
